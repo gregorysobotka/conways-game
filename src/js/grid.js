@@ -2,8 +2,8 @@ function grid(pattern){
   this.currentGrid = pattern;
   this.nextGrid = [];
   this.details = {
-    width : 0,
-    height : 0
+    width : pattern[0].length,
+    height : pattern[0].length
   };
   this.generation = 0;
 }
